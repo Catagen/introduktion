@@ -40,7 +40,7 @@ def test_palindrome():
     assert i.palindrome('ni talar bra latin') == True
     assert i.palindrome('A car a man a maraca') == True
     assert i.palindrome('hello there') == False
-    
+
 def test_character_frequency():
     assert i.character_frequency('hej janne') == {'h' : 1, 'e' : 2, 'j' : 2, 'a' : 1, 'n' : 2}
-    assert i.character_frequency('bananer') = {'b' : 1, 'a' : 2, 'n' : 2, 'e' : 1, 'r' : 1}
+    assert i.character_frequency('bananer') == {'b' : 1, 'a' : 2, 'n' : 2, 'e' : 1, 'r' : 1}
