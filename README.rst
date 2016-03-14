@@ -33,7 +33,7 @@ Skapa den virtuella körmiljön med de paket som behövs.
 
 .. code-block::
 
-  pyvenv venv
+  python -m venv venv
 
 Aktivera den virtella körmiljön:
 
