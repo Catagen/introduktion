@@ -1,5 +1,5 @@
 import pytest
-from exercises.introduction import introduction
+from exercises.introduction import Introduction
 
 
 def test_introduction:
