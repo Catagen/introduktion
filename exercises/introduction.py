@@ -2,7 +2,7 @@
 
 class Introduction:
 
-    def calculate_area(self, width, height):
+    def area(self, width, height):
         """
         Beräknar och returnerar arean av en figur med bredden 'width'
         och höjden 'height'.
@@ -43,7 +43,15 @@ class Introduction:
         """
         pass
 
-    def is_palindrome(self, words):
+    def travel_price(self, distance, consumption, price):
+        """
+        Beräknar och returnerar priset för en resa som är 'distance' km lång,
+        med en bil som drar 'consumption' liter bensin per mil då bensinen
+        kostar 'price' kr per liter.
+        """
+        pass
+
+    def palindrome(self, words):
         """
         Returnerar sant om orden är en palindrom, d.v.s en följd tecken som
         blir likadan oavsett om den läses framlänges eller baklänges,
@@ -52,24 +60,12 @@ class Introduction:
         """
         pass
 
-    def what_type(self, var):
-        """
-        Returnerar en sträng med namnet av typen som variabeln 'var' tillhör.
-        var = 5 ska till exempel returnera strängen "integer".
-        """
-        pass
-
-    def travel_price(self, distance, consumtion, price):
-        """
-        Beräknar och returnerar priset för en resa som är 'distance' km lång,
-        med en bil som drar 'consumption' liter bensin per mil då bensinen
-        kostar 'price' kr per liter.
-        """
-        pass
-
     def character_frequency(self, words):
         """
         Returnerar en dictionary med varje bokstav i strängen 'words' som nyckel
         till ett värde av antalet gånger bokstaven uppkommer i stängen.
+        Nycklarna i dictionaryn bör komma i samma ordning som de uppkommer
+        i strängen. words = "hej janne" bör till exempel returnera
+        {'h' : 1, 'e' : 2, 'j' : 2, 'a' : 1, 'n' : 2}
         """
         pass
